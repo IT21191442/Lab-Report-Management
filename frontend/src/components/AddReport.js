@@ -185,7 +185,7 @@ export default function AddReport() {
         {/*after click on submit button, called sendData function*/}
         <form className="form row g-3" name="Addform" onSubmit={sendData} encType="multipart/form-data" method="post" >
           <div class="col-md-5"><br></br><br></br>
-            <label for="ID" className="form-label">Patient ID</label>
+            <label for="ID" className="form-label">Patient number</label>
             <input type="text" className="form-control" id="id" name="id" placeholder="Patient ID"
               onChange={(e) => {
                 setId(e.target.value);//input eke value eka change karana warayak pasa, onchange eken value eka wenas karala setId ekata denawa, eka etapasse Id ekata ssighn kara gannawa
